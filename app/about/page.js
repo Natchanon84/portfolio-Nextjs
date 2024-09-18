@@ -2,7 +2,7 @@ import Style from "@/app/Style/About.module.css"
 import Image from "next/image"
 import profile from "@/app/public/d11.jpg"
 export const metadata = {
-  title: "About"
+  title: "About | Natchanon"
 }
 
 function About() {
@@ -42,7 +42,7 @@ function About() {
           <h3>Working Experience</h3>
           <br />
 
-          <p><strong>• 2016 - 2022 </strong>Electronic Technician
+          <p><strong>• 2022 - 2023 </strong>Electronic Technician
             <strong> | mu Space and Advanced Technology Co.,Ltd.</strong> </p>
           <p>- Developed a high-efficiency inverter for the Project "Powerbox"
             <br />

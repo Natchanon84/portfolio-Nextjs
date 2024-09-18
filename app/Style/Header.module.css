@@ -10,6 +10,8 @@
   padding: 0 10rem;
   position: fixed;
   box-shadow: rgba(0, 0, 0, 0.555) 0px 25px 20px -20px;
+
+  z-index: 999;
 }
 
 .icon {
@@ -23,7 +25,7 @@
   padding: 0.5rem 1rem;
   border-radius: 0.4rem;
   text-decoration: none;
-  background-color: rgb(163,244,235);
+  background-color: rgb(255, 255, 255);
   color: rgb(14,21,19);
   font-weight: bold;
 }

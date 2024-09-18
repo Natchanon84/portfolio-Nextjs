@@ -1,3 +1,86 @@
-.container{
-    padding-top: 3rem;
+.container {
+  padding-top: 3rem;
+  max-width: 100vw;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.color {
+  color: rgb(5, 155, 132);
+}
+.Header {
+    padding-top: 1rem;
+}
+.Header p {
+  font-size: 3rem;
+  text-align: center;
+}
+.tableProject {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding: 5rem 10rem;
+  flex-wrap: wrap;
+}
+.itemProject {
+  border: 1px solid rgb(5, 155, 132);
+  width: 20vw;
+  height: 50vh;
+  border-radius: 0 0 1.2rem 1.2rem;
+  box-shadow: rgb(163, 244, 235) 0px 10px 36px 0px,
+    rgb(163, 244, 235) 0px 0px 0px 1px;
+}
+.itemProject:hover {
+  transition: 500ms;
+  transform: scale(1.05);
+}
+.imageProject {
+  width: 100%;
+  height: 60%;
+  /* background-color: black; */
+  text-align: center;
+  color: red;
+}
+.imageProject img {
+  max-width: 100%;
+  height: 100%;  
+  object-fit: cover;
+
+}
+.detailProject {
+  width: 100%;
+  height: 30%;
+}
+.detailProject h4 {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.detailProject p {
+  text-indent: 2em;
+  text-align: justify;
+  padding: 0.5rem 1rem;
+}
+.btnProject {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.btnProject button {
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgb(163, 244, 235);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
 }
