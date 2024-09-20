@@ -22,7 +22,7 @@ function Project() {
                     <div key={Project.id} className={Style.itemProject}>
 
                         <div className={Style.imageProject}>
-                            <Link href={`/project/${Project.id}`}>
+                            {/* <Link href={`/project/${Project.id}`}> */}
                                 <Image
                                     key={Project.id}
                                     src={Project.image}
@@ -30,7 +30,7 @@ function Project() {
                                     width={500}
                                     height={300}
                                 />
-                            </Link>
+                            {/* </Link> */}
                         </div>
 
                         <div className={Style.detailProject}>
